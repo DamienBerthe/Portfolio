@@ -1,21 +1,31 @@
 #welcome-section{
     height:100vh;
-    background-color:red;
+    background-color:#1E56A0;
     display:flex;
     justify-content:center;
     align-items:center;
+    color:white;
+}
+
+#projects{
+    background-color: #D6E4F0;
+}
+
+#contact{
+    background-color:#F6F6F6;
 }
 
 #navbar{
     top:0;
     position:fixed;
-    background-color:grey;
     width:100%;
     text-align: center;
+    background-color: #163172;
 }
 
 html, body{
     margin:0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #projects{
@@ -25,7 +35,20 @@ html, body{
     flex-wrap: wrap;
 }
 
+.prolinks{
+    width:300px;
+    margin:100px;
+}
 
+img{
+    width:100%;
+    height:auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
 
 
 
